@@ -13,28 +13,31 @@ body {
 
 .container {
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 0 auto; 
     width: 40%;
-    height: 35vh;
     background-color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-.box {
-    height: 100%;
-    border: 3px solid rgb(79, 126, 151);
-    border-radius: 20px;
     text-align: start;
-    position: relative;
     justify-content: start;
+    align-items: start;
 }
 
-.box a {
-    border-radius: 10px 0 0 0;
-    background-color: rgb(79, 126, 151);
+.container .box {
+    margin: 10px;
+    border: 3px solid rgb(79, 126, 151);
+    border-radius: 5px;
     padding: 10px;
-    position: absolute;
+}
+
+.container .box p {
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    background-color: rgb(79, 126, 151);
+    border-radius: 5px;
+}
+
+.container div p a {
     text-decoration: none;
     color: #fff;
+    padding: 10px;
 }

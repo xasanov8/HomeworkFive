@@ -15,7 +15,6 @@ body {
     border-radius: 5px;
     margin: 0 auto;
     width: 40%;
-    height: 35vh;
     text-align: start;
     background-color: #fff;
     padding: 5px;
@@ -23,14 +22,12 @@ body {
 }
 
 .container div{
-    float: left;
-    width: 33%;
     margin: 0;
-    height: 100%;
     background-color: rgb(79, 126, 151);
     margin: 0.5px;
     border-radius: 5px;
     padding: 10px;
+    text-align: start;
 }
 
 .container div p {

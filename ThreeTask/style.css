@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+    background-color: #fff;
+}
+.container p{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
